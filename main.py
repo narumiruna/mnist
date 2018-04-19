@@ -3,7 +3,7 @@ import os
 
 import numpy as np
 
-from six.moves.urllib.request import urlretrieve
+from urllib.request import urlretrieve
 
 
 def to_one_hot(numbers, num_classes=10):
